@@ -24,8 +24,6 @@ default: &default
 development:
   <<: *default
   database: backendvinyl_development
-  username: test5
-  password: test5
   host: localhost
   port: 5432
 
@@ -62,10 +60,6 @@ development:
 test:
   <<: *default
   database: backendvinyl_test
-  username: test5
-  password: test5
-  host: localhost
-  port: 5432
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
